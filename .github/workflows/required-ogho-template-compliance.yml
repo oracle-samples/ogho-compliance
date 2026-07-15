@@ -17,6 +17,6 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Run OGHO template checks
-        uses: oracle-samples/ogho-compliance/.github/actions/ogho-template-check@bb0d80806f204615b445e7ce2d3ee3019779eb2b
+        uses: oracle-samples/ogho-compliance/.github/actions/ogho-template-check@069d4ac6ace648592805e450da9abf64b3f25bb4
         with:
           contributing-policy: required
